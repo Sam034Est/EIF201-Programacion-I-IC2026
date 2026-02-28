@@ -1,17 +1,2 @@
 ﻿  Ejercicio#1Estadistica_de_un_arreglo.cpp
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,60): error C7732: expected an expression before ']'
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,43): error C2664: 'double numHighest(double [])': cannot convert argument 1 from '_Ty' to 'double []'
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,43): error C2664:         with
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,43): error C2664:         [
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,43): error C2664:             _Ty=double
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,43): error C2664:         ]
-      D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio(6,8):
-      see declaration of 'numHighest'
-      D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio(31,43):
-      while trying to match the argument list '(_Ty)'
-          with
-          [
-              _Ty=double
-          ]
-  
-D:\samue\workspace\EIF201-Programacion-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\Ejercicio#1Estadistica_de_un_arreglo.cpp(31,40): error C2088: built-in operator '<<' cannot be applied to an operand of type 'std::basic_ostream<char,std::char_traits<char>>'
+  Ejercicio#1Estadistica_de_un_arreglo.vcxproj -> C:\Users\gabri\programacionI\EIF201-Programaci-n-I-IC2026\sesion02\Ejercicio#1Estadistica_de_un_arreglo\x64\Debug\Ejercicio#1Estadistica_de_un_arreglo.exe
