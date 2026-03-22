@@ -7,38 +7,37 @@ double numLower(double inNum[], int size);
 double suma(double inNum[], int size);
 double average(double inNum[], int size);
 
-int main(){
+int main() {
 
 	menu();
 
-    
-    return 0;
+	return 0;
 }
 
 
-void menu(){	
+void menu() {
 
 	double inNum[10];
 	const int size = 10;
 
 
 	std::cout << "Ingrese 10 Numeros: " << std::endl;
-	
+
 	for (size_t i = 0; i < size; i++)
 	{
-		std::cout << "Valor#" << i+1 << ": ";
+		std::cout << "Valor#" << i + 1 << ": ";
 		std::cin >> inNum[i];
 	}
-	
-	std::cout << "\nEl numero mayor fue: " << numHighest(inNum,size) << std::endl;
-	std::cout << "\nEl numero menor fue: " << numLower(inNum,size) << std::endl;
-	std::cout << "\nEl total de la suma de los numero es: " << suma(inNum,size) << std::endl;
-	std::cout << "\nEl promedio es:  " << average(inNum,size) << std::endl;
+
+	std::cout << "\nEl numero mayor fue: " << numHighest(inNum, size) << std::endl;
+	std::cout << "\nEl numero menor fue: " << numLower(inNum, size) << std::endl;
+	std::cout << "\nEl total de la suma de los numero es: " << suma(inNum, size) << std::endl;
+	std::cout << "\nEl promedio es:  " << average(inNum, size) << std::endl;
 
 
 	system("pause");
 
-	
+
 }
 
 double numHighest(double inNum[], int size)
