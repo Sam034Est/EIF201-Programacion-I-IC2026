@@ -4,4 +4,4 @@
 
 
 void askName();
-void showData(std::string, int);//Salida de datos en consola al usuario.
+void showData(std::string);//Salida de datos en consola.

@@ -3,11 +3,11 @@
 
 int main()
 {
-
+  
    
     askName();
 
-    showData();
+  
 
     return 0;
 }

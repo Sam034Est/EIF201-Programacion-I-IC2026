@@ -2,36 +2,28 @@
 
 void askName()
 {
-	int size = 3;
-	std::string name[3] = {};
-
+	std::string name;
 	std::cout << "Ingrese su nombre completo_ ";
-	for (size_t i = 0; i < size; i++)
-	{
-		std::cin >> name[i];
-	}
+	std::getline(std::cin, name);
+
+	showData(name);
+
 }
 
-void showData(std::string &name,int size)
+void showData(std::string name)
 {
-	for (size_t i = 0; i < size; i++)
-	{
-		if (i == 0 || i == 1)
-		{
+	
+	int aux = 0;
 
-		std::cout << name[i];
-		
+	for (size_t i = 0; i < (name).length(); i++)
+	{
+		if (name[i] == ' ')
+		{
+			aux = i;
+			break;
 		}
 	}
-
-	int vocales;
-	for (size_t i = 0; i < size; i++)
-	{
-		if (name[i] == 'a', 'e', 'i', 'o', 'u')
-		{
-			vocales += 1;
-		}
-	}
-
+	
+	std::cout << name.substr(0, aux);
 	
 }
