@@ -6,6 +6,14 @@ int main()
 {
     int cantidad = 0;
     int limite = 0;
+    int cantidad = 0;
+    double limite = 0.0;
+>>>>>>>>> Temporary merge branch 2
+
+    int cantidad = 0;
+    double limite = 0.0;
+>>>>>>>>> Temporary merge branch 2
+
     //Crear el arreglo dinamico
     double* pesos = crearRegistro(cantidad);
     
