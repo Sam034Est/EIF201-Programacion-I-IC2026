@@ -1,26 +1,34 @@
 // Lab2_S03_[SamuelZamoraQ].cpp : This file contains the 'main' function. 
-
+#include "PAQUETES.H"
 #include <iostream>
-#include "temperatura.h"
 
 int main()
 {
-    int cantidadDias = 0;
+    int cantidad = 0;
+    double limite = 0.0;
 
-    // 1. Crea arreglo dinamico
-    double* registroTemp = crearRegistro(cantidadDias);
+    //Crear el arreglo dinamico
+    double* pesos = crearRegistro(cantidad);
+    
+    //Pide los pesos al usuario
+    ingresarPesos(pesos, cantidad);
+    
+    //asigna el peso total calculado
+    double pesoTotal = calcularPesoTotal(pesos, cantidad);
 
-    // 2. Llenar con datos del usuario
-    ingresarTemperaturas(registroTemp, cantidadDias);
+    //Muestra cuantos paquetes superan el limite ingresado
+    int nLimite = contarSobreLimite(pesos, cantidad, limite);
 
-    // 3. Mostrar resultados
-    mostrarResultados(registroTemp, cantidadDias);
+    //encuetra el paquete mas pesado
+    const double* masPesado = buscarMasPesado(pesos, cantidad);
+    
+    std::cout << "El paquete mas pesado fue: Paquete#" << masPesado << std::endl;
 
-    // 4. liberar memoria
-    delete[] registroTemp;
-    registroTemp = nullptr;
+    //limpiaza de memoria
+    delete[] pesos;
+    pesos = nullptr;
 
-
+    system("pause");
     return 0;
 }
 

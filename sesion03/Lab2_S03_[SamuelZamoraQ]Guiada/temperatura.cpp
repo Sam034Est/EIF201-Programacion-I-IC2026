@@ -57,7 +57,7 @@ double calcularMinimo(const double* registro, int cantidadDias) {
 void mostrarResultados(const double* registro, int cantidadDias) {
 	std::cout << std::endl << std::fixed << std::setprecision(2);
 	std::cout << "+----------------------------------+" << std::endl;
-	std::cout << "| Resumen del registro			 |" << std::endl;
+	std::cout << "| Resumen del registro		   |" << std::endl;
 	std::cout << "+----------------------------------+" << std::endl;
 	std::cout << " Dias registrados:	" << cantidadDias << std::endl;
 	std::cout << " Temperatura Promedio " << calcularPromedio(registro, cantidadDias) << "C" << std::endl;

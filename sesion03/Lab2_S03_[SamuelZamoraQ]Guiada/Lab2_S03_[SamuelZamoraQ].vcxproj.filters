@@ -18,12 +18,12 @@
     <ClCompile Include="Lab2_S03_[SamuelZamoraQ].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="paquetes.cpp">
+    <ClCompile Include="temperatura.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="paquetes.h">
+    <ClInclude Include="temperatura.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
