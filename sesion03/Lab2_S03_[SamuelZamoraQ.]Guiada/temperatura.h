@@ -22,3 +22,4 @@ double calcularMinimo(const double* registro, int cantidadDias);
 void mostrarResultados(const double* registro, int cantidadDias);
 
 #endif // TEMPERATURA_H
+

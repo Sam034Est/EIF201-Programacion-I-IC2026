@@ -16,7 +16,7 @@ double* crearRegistro(int& cantidadDias) {
 	}
 
 	double* registro = new double[cantidadDias];
-	
+
 	return registro;
 }
 
@@ -32,7 +32,7 @@ void ingresarTemperaturas(double* registro, int cantidadDias) {
 double calcularPromedio(const double* registro, int cantidadDias) {
 	double suma = 0.0;
 	for (size_t i = 0; i < cantidadDias; i++) suma += registro[i];
-	
+
 	return suma / cantidadDias;
 }
 

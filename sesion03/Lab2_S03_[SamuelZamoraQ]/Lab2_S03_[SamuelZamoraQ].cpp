@@ -5,8 +5,7 @@
 int main()
 {
     int cantidad = 0;
-    double limite = 0.0;
-
+    int limite = 0;
     //Crear el arreglo dinamico
     double* pesos = crearRegistro(cantidad);
     

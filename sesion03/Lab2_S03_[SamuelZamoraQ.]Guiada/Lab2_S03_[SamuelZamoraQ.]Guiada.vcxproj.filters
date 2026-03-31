@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lab2_S03_[SamuelZamoraQ].cpp">
+    <ClCompile Include="Lab2_S03_[SamuelZamoraQ.]Guiada.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="temperatura.cpp">
