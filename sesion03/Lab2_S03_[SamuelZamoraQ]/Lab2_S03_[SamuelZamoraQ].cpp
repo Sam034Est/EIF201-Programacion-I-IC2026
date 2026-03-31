@@ -5,7 +5,6 @@
 
 int main()
 {
-    int cantidadDias = 0;
 
     // 1. Crea arreglo dinamico
     double* registroTemp = crearRegistro(cantidadDias);
