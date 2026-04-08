@@ -13,6 +13,18 @@ namespace UNA {
 		activo = _activo;
 	}
 	//getter y setters
+	const std::string getPlaca() {
+
+	}
+	const std::string getMarca() {
+
+	}
+	const int getAnio() {
+
+	}
+	double getKm() {
+
+	}
 	
 	
 	//metodos
