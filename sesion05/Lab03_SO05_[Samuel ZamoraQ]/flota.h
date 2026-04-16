@@ -12,6 +12,7 @@ namespace UNA{
 
 	private:
 		flota** productos;
+		flota** productos;
 		int cantidad;
 		int capacidad;	
 
@@ -22,10 +23,12 @@ namespace UNA{
 
 		void agregar();
 
+
+
+
 	};
 
 
-	public:
 
 }
 
