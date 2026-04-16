@@ -7,7 +7,7 @@ namespace UNA{
 	
 	class vehiculo {
 	private: 
-		 std::string placa = "";
+		std::string placa = "";
 		 std::string marca = "";
 		 int anio = 0;
 		double km = 0.0;
@@ -21,6 +21,10 @@ namespace UNA{
 		std::string getMarca() const;
 		int getAnio() const;
 		double getKm() const;
+
+		//setters
+
+		std::string setPlaca(std::string nuevaPlaca);
 
 		//metodos
 		void registrarKm();
