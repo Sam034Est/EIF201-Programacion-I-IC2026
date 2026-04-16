@@ -12,39 +12,44 @@ namespace UNA {
 		km = _km;
 		activo = _activo;
 	}
-	
 	//getter
-	std::string vehiculo::getPlaca() const{
+	std::string vehiculo::getPlaca() const {
 		return placa;
 	}
-	const std::string getMarca() {
-
+	std::string vehiculo::getMarca() const {
+		return marca;
 	}
-	const int getAnio() {
-
+	int vehiculo::getAnio() const{
+		return anio;
 	}
-	double getKm() {
-
+	double vehiculo::getKm() const{
+		return km;
 	}
 
-	//setters
-	std::string setPlaca(std::string nuevaPlaca) {
-
+	//setter
+	std::string vehiculo::setPlaca(std::string nuevaPlaca) {
+		placa = nuevaPlaca;
 	}
-	std::string setMarca(std::string nuevaMarca) {
 
-	}
-	int setAnio(int nuevoAnio) {
-
+	std::string vehiculo::setMarca(std::string nuevaMarca) {
+		marca = nuevaMarca;
 	}
 	
-	double setKm(double nuevoKm) {
-
+	int vehiculo::setAnio(int nuevoAnio) {
+		anio = nuevoAnio;
 	}
+	
+	double vehiculo::setKm(double nuevoKm) {
+		km = nuevoKm;
+	}
+
 
 	//metodos
 	void vehiculo::registrarKm() {
-
+	    /*std::cout << "Placa: " << std::endl;
+		std::cout << "Marca: " << std::endl;
+		std::cout << "anio: " << std::endl;
+		std::cout << "kilometraje: " << std::endl;*/
 	}
 
 	void vehiculo::desactivar() {
@@ -55,7 +60,7 @@ namespace UNA {
 
 	}
 
-	 bool vehiculo::mostrar() const{
+	bool vehiculo::mostrar() const {
 
 	}
 
