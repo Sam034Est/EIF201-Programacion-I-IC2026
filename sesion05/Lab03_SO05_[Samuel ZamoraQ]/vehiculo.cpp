@@ -26,6 +26,7 @@ namespace UNA {
 		return km;
 	}
 
+
 	//setter
 	std::string vehiculo::setPlaca(std::string nuevaPlaca) {
 		placa = nuevaPlaca;
@@ -33,7 +34,7 @@ namespace UNA {
 
 	std::string vehiculo::setMarca(std::string nuevaMarca) {
 		marca = nuevaMarca;
-	}
+	} 
 	
 	int vehiculo::setAnio(int nuevoAnio) {
 		anio = nuevoAnio;
@@ -46,10 +47,9 @@ namespace UNA {
 
 	//metodos
 	void vehiculo::registrarKm() {
-	    /*std::cout << "Placa: " << std::endl;
-		std::cout << "Marca: " << std::endl;
-		std::cout << "anio: " << std::endl;
-		std::cout << "kilometraje: " << std::endl;*/
+		
+		std::cout << "kilometraje: " << std::endl;
+
 	}
 
 	void vehiculo::desactivar() {

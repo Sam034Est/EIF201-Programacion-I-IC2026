@@ -1,7 +1,7 @@
 #ifndef FLOTA_H
 #define FLOTA_H
-#include <string>
-#include <iostream>
+
+#include "vehiculo.h"
 
 
 
@@ -11,19 +11,23 @@ namespace UNA{
 	{
 
 	private:
-		flota** productos;
-		flota** productos;
-		int cantidad;
-		int capacidad;	
+		UNA::vehiculo** unidades; //arreglo dinámico
+		int cantidad = 0;	
+		int capacidad = 0;
 
 	public:
 
 		flota(int capacidadInicial = 3);
+		
 		~flota();
 
-		void agregar();
 
-
+		void agregar(vehiculo* nuevo);
+		std::string* buscarPorPlaca(std::string placa);
+		void mostrarPorMarca(std::string marca);
+		bool eliminar(std::string placa);
+		int contarActivos();
+		void mostrarTodos();
 
 
 	};
@@ -33,8 +37,5 @@ namespace UNA{
 }
 
 
-
-
-
-#endif // !FLOTA_H
+#endif //! FLOTA_H
 
